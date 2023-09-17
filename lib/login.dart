@@ -21,12 +21,7 @@ class _LoginPageState extends State<LoginPage> {
     return Container(
       decoration: BoxDecoration(
         color: Color.fromRGBO(83, 114, 255, 1),
-      //   image:DecorationImage(image:
-      // AssetImage(
-      //   "assets/background.jpeg",),
-      //   fit: BoxFit.fill,
-
-      // )
+ 
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
