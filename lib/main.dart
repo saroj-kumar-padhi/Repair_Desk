@@ -1,5 +1,7 @@
-import 'package:afghan_net/home.dart';
-
+import 'package:afghan_net/home_page.dart';
+import 'package:afghan_net/login.dart';
+import 'package:afghan_net/reseller_mangement.dart';
+import 'package:afghan_net/setting.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -19,12 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MyHomePage(title: 'hello',),
-      // getPages: [
-      //   GetPage(name: "HomePage", page: ()=>HomePage()),
-      // ],
-      
+      home:  HomePage(),
     );
   }
 }
-

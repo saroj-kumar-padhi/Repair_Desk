@@ -1,4 +1,6 @@
+import 'package:afghan_net/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -142,6 +144,7 @@ class _LoginPageState extends State<LoginPage> {
       onPressed: () {
         debugPrint("Email : ${emailController.text}");
         debugPrint("Password : ${passwordController.text}");
+        Get.to(()=>HomePage());
       },
       style: ElevatedButton.styleFrom(
         shape: const StadiumBorder(
